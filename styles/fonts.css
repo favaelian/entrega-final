@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "title";
+    src: url(../fonts/Oswald-Bold.ttf) format("truetype");
+}
+
+/* texto */
+@font-face {
+    font-family: "text-light";
+    src: url(../fonts/Oswald-Light.ttf) format("truetype");
+}
+
+/* regular */
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/Oswald-Regular.ttf) format("truetype");
+}

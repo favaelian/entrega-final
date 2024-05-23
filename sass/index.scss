@@ -1,0 +1,353 @@
+@import "variables";
+
+@media only screen and (max-width:600px) { 
+
+.img-fondo{
+    width: 90vw;
+    height: 90vh;
+    background-color: red;
+    margin: auto;
+    background-image: url("../images/gimansio.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+    -moz-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .text{
+        width: 60%;
+        border-radius: .5rem;
+        background-color: rgba(0,0,0,0.80);
+        color: white;
+        text-align: center;
+        font-family: "text-light";
+        p{
+            font-size: 1.4rem;
+            padding: 2rem;
+        }
+    }
+}
+
+
+.section-container2{
+    margin-top: 3rem;
+    width: 100%;
+    height: 100vh;
+    .article-container{
+        margin: auto;
+        width: 90%;
+        height: 90%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .map{
+            img{
+                height: auto;
+                width: 20rem;
+                border-radius: 100%;
+            }
+        }
+        .text2{
+            color: whitesmoke;
+            font-family: "text-light";
+            font-size: 1.4rem;
+            width: 37rem;
+            display: flex;
+            flex-direction: column;
+            p{
+                margin-bottom: 2rem;
+            }
+            .button{
+                font-family: "regular";
+                margin: auto;
+                padding: 1rem;
+                width: 15rem;
+                border: 3px solid white;
+                border-radius: .5rem;
+                background-color: $back-color;
+                
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+                &:hover{
+                    transform: scale(1.1);
+                    transition: all .2s;
+                    background-color: white;
+                    box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+                    -webkit-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+                    -moz-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+                    a{
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+    .copy-part{
+        color: #FEFEFE;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        
+     
+         
+    }
+    .imagenes-abajo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: -27px;
+        margin-left: 100px;
+    }
+    .under-armour{
+        width: 5%;
+    }
+    .logo-copyright{
+        width: 20px;
+        height: 20px;
+    }	
+}
+
+@media only screen and (min-width:601px) and (max-width:1200px) { 
+	.img-fondo{
+        width: 90vh;
+        height: 90vh;
+        background-color: red;
+        margin: auto;
+        background-image: url("../images/gimansio.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: .5rem;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+        -webkit-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+        -moz-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .text{
+            width: 60%;
+            border-radius: .5rem;
+            background-color: rgba(0,0,0,0.80);
+            color: white;
+            text-align: center;
+            font-family: "text-light";
+            p{
+                font-size: 1.4rem;
+                padding: 2rem;
+            }
+        }
+    }
+    
+    
+    .section-container2{
+        margin-top: 3rem;
+        width: 100%;
+        height: 100vh;
+        .article-container{
+            margin: auto;
+            width: 90%;
+            height: 90%;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .map{
+                img{
+                    height: auto;
+                    width: 20rem;
+                    border-radius: 100%;
+                }
+            }
+            .text2{
+                color: whitesmoke;
+                font-family: "text-light";
+                font-size: 1.4rem;
+                width: 37rem;
+                display: flex;
+                flex-direction: column;
+                p{
+                    margin-bottom: 2rem;
+                }
+                .button{
+                    font-family: "regular";
+                    margin: auto;
+                    padding: 1rem;
+                    width: 15rem;
+                    border: 3px solid white;
+                    border-radius: .5rem;
+                    background-color: $back-color;
+                    
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: all .2s;
+                        background-color: white;
+                        box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+                        -webkit-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+                        -moz-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+                        a{
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    
+        .copy-part{
+            color: #FEFEFE;
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            
+         
+             
+        }
+        .imagenes-abajo{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: -27px;
+            margin-left: 100px;
+        }
+        .under-armour{
+            width: 5%;
+        }
+        .logo-copyright{
+            width: 20px;
+            height: 20px;
+        }	
+}
+
+@media only screen and (min-width:1201px) { 
+	.img-fondo{
+        width: 90vh;
+        height: 90vh;
+        background-color: red;
+        margin: auto;
+        background-image: url("../images/gimansio.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: .5rem;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+        -webkit-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+        -moz-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .text{
+            width: 60%;
+            border-radius: .5rem;
+            background-color: rgba(0,0,0,0.80);
+            color: white;
+            text-align: center;
+            font-family: "text-light";
+            p{
+                font-size: 1.4rem;
+                padding: 2rem;
+            }
+        }
+    }
+    
+    
+    .section-container2{
+        margin-top: 3rem;
+        width: 100%;
+        height: 100vh;
+        .article-container{
+            margin: auto;
+            width: 90%;
+            height: 90%;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .map{
+                img{
+                    height: auto;
+                    width: 20rem;
+                    border-radius: 100%;
+                }
+            }
+            .text2{
+                color: whitesmoke;
+                font-family: "text-light";
+                font-size: 1.4rem;
+                width: 37rem;
+                display: flex;
+                flex-direction: column;
+                p{
+                    margin-bottom: 2rem;
+                }
+                .button{
+                    font-family: "regular";
+                    margin: auto;
+                    padding: 1rem;
+                    width: 15rem;
+                    border: 3px solid white;
+                    border-radius: .5rem;
+                    background-color: $back-color;
+                    
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: all .2s;
+                        background-color: white;
+                        box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+                        -webkit-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+                        -moz-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.76);
+                        a{
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    
+        .copy-part{
+            color: #FEFEFE;
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            
+         
+             
+        }
+        .imagenes-abajo{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: -27px;
+            margin-left: 100px;
+        }
+        .under-armour{
+            width: 5%;
+        }
+        .logo-copyright{
+            width: 20px;
+            height: 20px;
+        }			
+}

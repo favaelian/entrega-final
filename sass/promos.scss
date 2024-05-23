@@ -1,0 +1,109 @@
+@media only screen and (max-width:600px) { 
+	.promosgym{
+    color: #FEFEFE;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+  }
+  
+  
+  .grid-item img {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
+  .medio {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    grid-column: 2; 
+  }
+}
+
+@media only screen and (min-width:601px) and (max-width:1200px) { 
+  .promosgym{
+    color: #FEFEFE;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+  }
+  
+  
+  .grid-item img {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
+  .medio {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    grid-column: 2; 
+  }
+}
+
+@media only screen and (min-width:1201px) { 
+
+.section-promos{
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem;
+  .item {
+    color: #FEFEFE;
+    border-style: solid;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 0px 0px 34px 0px rgba(214,214,214,0.75);
+    -webkit-box-shadow: 0px 0px 34px 0px rgba(214,214,214,0.75);
+    -moz-box-shadow: 0px 0px 34px 0px rgba(214,214,214,0.75);
+    h3{
+      font-family: "regular";
+    }
+    p{
+      font-family: "text-light";
+    }
+    
+  }
+  #item-medio{
+    color: #FEFEFE;
+    border-style: solid;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    box-shadow: 0px 0px 34px 0px rgba(255,206,79,0.75);
+    -webkit-box-shadow: 0px 0px 34px 0px rgba(255,206,79,0.75);
+    -moz-box-shadow: 0px 0px 34px 0px rgba(255,206,79,0.75);
+    h3{
+      font-family: "regular";
+    }
+    p{
+      font-family: "text-light";
+    }
+  }
+}
+}
+
